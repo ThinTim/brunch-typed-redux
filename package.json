@@ -1,0 +1,32 @@
+{
+  "name": "your-app",
+  "version": "0.0.1",
+  "description": "Description",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build",
+    "build:prod": "brunch build --production"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "devDependencies": {
+    "auto-reload-brunch": "^2.1.0",
+    "brunch": "^2.5.3",
+    "brunch-typescript": "1.8.1",
+    "css-brunch": "^2.0.0",
+    "javascript-brunch": "^2.0.0",
+    "tsd": "^0.6.5",
+    "typescript": "^1.8.9",
+    "uglify-js-brunch": "^2.0.1"
+  },
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-redux": "^4.4.1",
+    "redux": "^3.3.1"
+  }
+}
